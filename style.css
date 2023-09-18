@@ -64,7 +64,14 @@ body {
   text-decoration: solid;
 }
 
+.image-item {
+  text-decoration: none; 
+}
 
+.image-item img
+{
+  width: 150px;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
