@@ -222,3 +222,27 @@ body {
   width: 100%;
   height: 500px;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 20px; /* Add spacing around the content */
+}
+
+/* Style for the image on the left */
+.image {
+  flex: 0.2; /* Take up one-third of the available width */
+}
+
+.image img{
+  
+  height: 250px;
+  width: 170px;
+}
+
+/* Style for the content on the right */
+.content {
+  flex: 2; /* Take up two-thirds of the available width */
+  padding-left: 20px; /* Add spacing between the image and content */
+  color: rgb(181, 131, 57);
+}
