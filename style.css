@@ -235,7 +235,6 @@ body {
 }
 
 .image img{
-  
   height: 250px;
   width: 170px;
 }
@@ -245,4 +244,26 @@ body {
   flex: 2; /* Take up two-thirds of the available width */
   padding-left: 20px; /* Add spacing between the image and content */
   color: rgb(181, 131, 57);
+}
+
+.bottom-middle-div {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-decoration-color: rgb(181, 131, 57);;
+}
+h2 {
+  color: rgb(181, 131, 57); /* Apply the desired text color */
+}
+
+p {
+  color: rgb(181, 131, 57); /* Apply the desired text color */
+}
+
+.im6 {
+  height: 80px;
+  width: 60px;
 }
