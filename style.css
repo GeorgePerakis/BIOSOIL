@@ -271,3 +271,17 @@ p {
   height: 80px;
   width: 60px;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid rgb(181, 131, 57);
+  padding: 8px;
+}
+
